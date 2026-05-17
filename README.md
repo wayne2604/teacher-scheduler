@@ -1,42 +1,62 @@
-# Teacher Schedule Management System
+# ??? Teacher Schedule Management System
 
-A robust web-based scheduling application built with PHP and MySQL. Teachers can seamlessly manage their daily routines, while administrators oversee the entire system. Features include secure authentication, email-based password recovery via PHPMailer, and efficient schedule searching.
+A robust web-based scheduling application built with PHP and MySQL. It allows teachers to manage their daily routines and administrators to oversee system-wide schedules with ease.
 
-📦 Stack
-PHP 8.x
-MySQL / MariaDB
-PHPMailer
-Vanilla CSS
+---
 
-✨ Quick start
-1. Clone the repository to your server's root (e.g., `htdocs`).
-2. Import your database schema into MySQL.
-3. Copy `db_conn.php.example` to `db_conn.php` and update your database credentials.
-4. Open your browser and navigate to `localhost/teacher_schedule`.
+### ?? Stack
+- PHP 8.x
+- MySQL / MariaDB
+- PHPMailer
+- Vanilla CSS
 
-📧 Email Setup
-This project integrates **PHPMailer** for secure password resets. To enable this, configure your SMTP settings within the `forgot_logic.php` file using your email provider's credentials.
+---
 
-🎹 Features
-- **Authentication** — Secure login and registration for teachers and admins.
-- **Schedule Management** — Easily add, view, and delete schedule entries.
-- **Admin Panel** — Dedicated interface for system-wide management.
-- **Search** — Fast filtering to find specific schedules instantly.
+### ? Quick start
+```bash
+# Clone the repository
+git clone https://github.com/wayne2604/teacher-scheduler.git
 
-🤖 How it works
-The system utilizes a classic LAMP/WAMP architecture:
-- **Database Layer**: `db_conn.php` handles the connection using `mysqli` with `utf8mb4` support for special characters.
-- **Logic Separation**: Processing is handled by dedicated `*_logic.php` files to keep the UI clean.
-- **Mailing**: Password recovery links are generated and sent via SMTP using the PHPMailer library.
+# Navigate to the directory
+cd teacher-scheduler
 
-📁 Project structure
+# Copy the example config and add your DB credentials
+cp db_conn.php.example db_conn.php
+```
+Ensure you have a local server (like XAMPP) running and the database schema imported to get started.
+
+---
+
+### ?? Features
+- **Secure Auth** � Login and registration system for teachers and admins.
+- **Schedule Management** � Create, view, and delete daily schedules.
+- **Search Logic** � Efficient filtering to find specific classes or times.
+- **Password Recovery** � Secure reset links sent via SMTP using PHPMailer.
+
+---
+
+### ??? How it works
+The system follows a modular PHP architecture designed for reliability and ease of use:
+- **Database Connectivity**: Uses `mysqli` with `utf8mb4` charset to handle special characters (like "�") correctly.
+- **Decoupled Logic**: UI and processing are separated into `index.php` and `*_logic.php` files for better maintainability.
+- **Mailing System**: Integrates PHPMailer to handle authenticated SMTP requests for password resets.
+
+---
+
+### ?? Project structure
+```text
 /
-  PHPMailer/          # PHPMailer core library files
-  style/              # CSS and frontend assets
-  db_conn.php.example # Template for database configuration
-  index.php           # Main dashboard and entry point
-  *_logic.php         # Backend processing scripts
-  admin.php           # Administrator dashboard
++-- PHPMailer/          # Core library for email functionality
++-- style/              # CSS assets and design files
++-- add_schedule_logic.php # Backend logic for adding schedules
++-- admin.php           # Admin dashboard interface
++-- db_conn.php.example # Template for database configuration
++-- index.php           # Main entry point and user dashboard
++-- login_logic.php     # Authentication processing
++-- README.md           # Project documentation
+```
 
-👤 Author
-**Wayne** (rmanunag308@gmail.com)
+---
+
+### ?? Author
+**Wayne** - [https://github.com/wayne2604](https://github.com/wayne2604)
