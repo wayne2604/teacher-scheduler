@@ -1,4 +1,6 @@
-# ??? Teacher Schedule Management System
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=45&pause=1000&color=F7F7F7&center=true&vCenter=true&width=900&lines=???+Teacher+Schedule+Management+System" alt="Title" />
+</div>
 
 A robust web-based scheduling application built with PHP and MySQL. It allows teachers to manage their daily routines and administrators to oversee system-wide schedules with ease.
 
