@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=45&pause=1000&color=F7F7F7&center=true&vCenter=true&width=900&lines=???+Teacher+Schedule+Management+System" alt="Title" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=45&pause=1000&color=F7F7F7&center=true&vCenter=true&width=400&lines=???+Teacher+Schedule+Management+System" alt="Title" />
 </div>
 
 A robust web-based scheduling application built with PHP and MySQL. It allows teachers to manage their daily routines and administrators to oversee system-wide schedules with ease.
@@ -30,16 +30,16 @@ Ensure you have a local server (like XAMPP) running and the database schema impo
 ---
 
 ### ??? Features
-- **Secure Auth** — Login and registration system for teachers and admins.
-- **Schedule Management** — Create, view, and delete daily schedules.
-- **Search Logic** — Efficient filtering to find specific classes or times.
-- **Password Recovery** — Secure reset links sent via SMTP using PHPMailer.
+- **Secure Auth** â€” Login and registration system for teachers and admins.
+- **Schedule Management** â€” Create, view, and delete daily schedules.
+- **Search Logic** â€” Efficient filtering to find specific classes or times.
+- **Password Recovery** â€” Secure reset links sent via SMTP using PHPMailer.
 
 ---
 
 ### ?? How it works
 The system follows a modular PHP architecture designed for reliability and ease of use:
-- **Database Connectivity**: Uses `mysqli` with `utf8mb4` charset to handle special characters (like "ñ") correctly.
+- **Database Connectivity**: Uses `mysqli` with `utf8mb4` charset to handle special characters (like "Ã±") correctly.
 - **Decoupled Logic**: UI and processing are separated into `index.php` and `*_logic.php` files for better maintainability.
 - **Mailing System**: Integrates PHPMailer to handle authenticated SMTP requests for password resets.
 
