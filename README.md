@@ -1,4 +1,4 @@
-#### Teacher Schedule Management System
+################ Teacher Schedule Management System
 
 A robust web-based scheduling application built with PHP and MySQL. It allows teachers to manage their daily routines and administrators to oversee system-wide schedules with ease.
 
@@ -12,7 +12,7 @@ A robust web-based scheduling application built with PHP and MySQL. It allows te
 
 ---
 
-### ? Quick start
+### ✨ Quick start
 ```bash
 # Clone the repository
 git clone https://github.com/wayne2604/teacher-scheduler.git
@@ -27,7 +27,7 @@ Ensure you have a local server (like XAMPP) running and the database schema impo
 
 ---
 
-### ?? Features
+### 🛠️ Features
 - **Secure Auth** — Login and registration system for teachers and admins.
 - **Schedule Management** — Create, view, and delete daily schedules.
 - **Search Logic** — Efficient filtering to find specific classes or times.
@@ -35,7 +35,7 @@ Ensure you have a local server (like XAMPP) running and the database schema impo
 
 ---
 
-### ??? How it works
+### 💡 How it works
 The system follows a modular PHP architecture designed for reliability and ease of use:
 - **Database Connectivity**: Uses `mysqli` with `utf8mb4` charset to handle special characters (like "ñ") correctly.
 - **Decoupled Logic**: UI and processing are separated into `index.php` and `*_logic.php` files for better maintainability.
@@ -43,7 +43,7 @@ The system follows a modular PHP architecture designed for reliability and ease 
 
 ---
 
-### ?? Project structure
+### 🖧 Project structure
 ```text
 /
 +-- PHPMailer/          # Core library for email functionality
@@ -58,5 +58,5 @@ The system follows a modular PHP architecture designed for reliability and ease 
 
 ---
 
-### ?? Author
+### ✎ Author
 **Wayne** - [https://github.com/wayne2604](https://github.com/wayne2604)
