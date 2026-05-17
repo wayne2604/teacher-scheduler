@@ -1,10 +1,10 @@
-# ??? Teacher Schedule Management System
+Teacher Schedule Management System
 
 A robust web-based scheduling application built with PHP and MySQL. It allows teachers to manage their daily routines and administrators to oversee system-wide schedules with ease.
 
 ---
 
-### ?? Stack
+### ðŸ“¦ Stack
 - PHP 8.x
 - MySQL / MariaDB
 - PHPMailer
@@ -28,16 +28,16 @@ Ensure you have a local server (like XAMPP) running and the database schema impo
 ---
 
 ### ?? Features
-- **Secure Auth** — Login and registration system for teachers and admins.
-- **Schedule Management** — Create, view, and delete daily schedules.
-- **Search Logic** — Efficient filtering to find specific classes or times.
-- **Password Recovery** — Secure reset links sent via SMTP using PHPMailer.
+- **Secure Auth** â€” Login and registration system for teachers and admins.
+- **Schedule Management** â€” Create, view, and delete daily schedules.
+- **Search Logic** â€” Efficient filtering to find specific classes or times.
+- **Password Recovery** â€” Secure reset links sent via SMTP using PHPMailer.
 
 ---
 
 ### ??? How it works
 The system follows a modular PHP architecture designed for reliability and ease of use:
-- **Database Connectivity**: Uses `mysqli` with `utf8mb4` charset to handle special characters (like "ñ") correctly.
+- **Database Connectivity**: Uses `mysqli` with `utf8mb4` charset to handle special characters (like "Ã±") correctly.
 - **Decoupled Logic**: UI and processing are separated into `index.php` and `*_logic.php` files for better maintainability.
 - **Mailing System**: Integrates PHPMailer to handle authenticated SMTP requests for password resets.
 
