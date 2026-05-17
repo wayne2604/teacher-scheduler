@@ -1,4 +1,4 @@
-################ Teacher Schedule Management System
+########### Teacher Schedule Management System
 
 A robust web-based scheduling application built with PHP and MySQL. It allows teachers to manage their daily routines and administrators to oversee system-wide schedules with ease.
 
