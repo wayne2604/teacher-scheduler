@@ -1,5 +1,5 @@
 website.zip
-db_conn.php
+db_conn_local.php
 .DS_Store
 Thumbs.db
 .vercel
