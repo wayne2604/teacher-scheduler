@@ -5,7 +5,7 @@
     <title>School Schedule System</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="HhjbDakVpBZ03qW0v4vEOmFfc-TNMy3VSFMkcqCDgaI" />
-    <link rel="icon" type="image/png" href="logo/459146631_122094564554531793_7023822997315371156_n-removebg-preview.png">
+    <link rel="icon" type="image/png" href="logo/NEWTURNOLOGO-copy-1.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
