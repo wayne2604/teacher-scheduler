@@ -11,6 +11,7 @@ include 'db_conn.php';
 <head>
     <title>Admin Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="logo/459146631_122094564554531793_7023822997315371156_n-removebg-preview.png">
     <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
